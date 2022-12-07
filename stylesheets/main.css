@@ -6,8 +6,9 @@
   Primary Colour:
     #f0aa70 (nav bar, important info)- orange
 
-  Secondary Colour:
+  Secondary Colours:
     #453028 (headings) - dark brown
+    #ffcca3; (important info) - light orange
 
   Explanation:
     I chose orange and brown as the main colours of the website because
@@ -45,6 +46,9 @@ html {
   margin: 0; gets rid of the outside margin, allowing the content to spread 
   across the entire webpage.
 
+  font-size: 1.8rem; makes the size of the text 1.8 times the root element's
+  font size.
+
   font-family: Geneva, Tahoma, sans-serif; sets the font to Geveva. If 
   Geneva cannot be used, Tahoma is used. If Tahoma cannot be used, the 
   default sans-serif font built into the browser is used.
@@ -52,6 +56,7 @@ html {
 body {
   background-color: #f3e7dc;
   margin: 0;
+  font-size: 1.8rem;
   font-family: Geneva, Tahoma, sans-serif;
 }
 
@@ -75,16 +80,6 @@ header {
 */
 .heading {
   color: #453028;
-}
-
-/*
-  Styles anything within the h1 tags.
-
-  font-size: 3.6rem; sets the size of the text to 3.6 rem, or 24px in the
-  case of this website.
-*/
-h1 {
-  font-size: 3.6rem;
 }
 
 /*
@@ -126,16 +121,12 @@ nav li {
   padding: 1.6rem; makes the space between the content and the border larger.
 
   text-decoration: none; gets rid of the underline on the anchor tags.
-
-  font-size: 1.6rem; sets the size of the text to 1.6 rem, or 16px in the
-  case of this website.
 */
 nav a {
   display: block;
   color: #5c3d2e;
   padding: 1.6rem;
   text-decoration: none;
-  font-size: 1.6rem;
 }
 
 /*
@@ -155,48 +146,18 @@ nav a:focus {
 }
 
 /*
-  Styles anything within the main tags.
+  Styles anything within the main or footer tags.
 
   margin: 0.8rem; makes the space between the content and the edge of the
   webpage larger.
 
   color: #5c3d2e; sets the font color to a dark brown.
 */
-main {
+main,
+footer {
   margin: 0.8rem;
   color: #5c3d2e;
 }
-
-/*
-  Styles anything within the h2 tags.
-
-  font-size: 2.2rem; sets the size of the text to 2.2 rem, or 22px in the
-  case of this website.
-*/
-h2 {
-  font-size: 2.2rem;
-}
-
-/*
-  Styles anything within the h3 tags.
-
-  font-size: 2rem; sets the size of the text to 2 rem, or 20px in the
-  case of this website.
-*/
-h3 {
-  font-size: 2rem;
-}
-
-/*
-  Styles anything within the h2 tags, or the ul tags.
-  font-size: 1.6rem; sets the size of the text to 1.6 rem, or 16px in the
-  case of this website.
-*/
-p,
-ul {
-  font-size: 1.6rem;
-}
-
 /*
   Styles anything within tags with an id of sources.
 
@@ -214,16 +175,6 @@ ul {
   padding-bottom: 2rem;
   padding-top: 0.1rem;
   background-color: #e7d4c3;
-}
-
-/*
-  Styles anything within the h3 tags.
-
-  font-size: 1.8rem; sets the size of the text to 1.8 rem, or 18px in the
-  case of this website.
-*/
-h4 {
-  font-size: 1.8rem;
 }
 
 /*
