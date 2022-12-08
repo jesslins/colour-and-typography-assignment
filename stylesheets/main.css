@@ -1,22 +1,4 @@
 /*
-  Neutral Colours:
-    #f3e7dc (background) - very light (almost white) orange/beige
-    #5c3d2e (main text) - brown
-  
-  Primary Colour:
-    #f0aa70 (nav bar, important info)- orange
-
-  Secondary Colours:
-    #453028 (headings) - dark brown
-    #ffcca3; (important info) - light orange
-
-  Explanation:
-    I chose orange and brown as the main colours of the website because
-    orange represents balance, and brown represents security and a down
-    to earth nature.
-*/
-
-/*
   This will style all elements to have line spacing 
   of 140% of the font size of the element.
 
@@ -29,7 +11,7 @@
 /*
   This will style the html element (also known as the 
   root element) to have a default font size of 62.5% 
-  of the default font size for the browser
+  of the default font size for the browser.
 
   -Mr. Hardman
 */
@@ -170,7 +152,7 @@ footer {
   background-color: #ffcca3; sets the background color to a darker beige than the
   main background.
 */
-#sources {
+.sources {
   padding-left: 2rem;
   padding-bottom: 2rem;
   padding-top: 0.1rem;

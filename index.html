@@ -3,7 +3,27 @@
 • Course: Software Development 20S
 • Teacher: Mr. Hardman
 • School: Pembina Trails Early College
-• Date Last Modified: 12/07/2022
+• Date Last Modified: 12/08/2022
+-->
+
+<!-- 
+  Colour Family Explanation
+  
+  Neutral Colours:
+    #f3e7dc (background) - very light (almost white) orange/beige
+    #5c3d2e (main text) - brown
+  
+  Primary Colour:
+    #f0aa70 (nav bar, important info)- orange
+
+  Secondary Colours:
+    #453028 (headings) - dark brown
+    #ffcca3 (important info) - light orange
+
+  Explanation:
+    I chose orange and brown as the main colours of the website because
+    orange represents balance, and brown represents security and a down
+    to earth nature. 
 -->
 
 <!DOCTYPE html>
@@ -17,7 +37,7 @@
     <link rel="stylesheet" href="stylesheets/main.css" />
     <!-- Internal stylesheet for styling that is specific to this webpage. -->
     <style>
-      /* Inverts the colors on pictures with the "inverted" class. */
+      /* Inverts the colors on pictures with the "inverted" id. */
       #inverted {
         filter: invert();
       }
@@ -63,6 +83,7 @@
           <li>
             <a href="index.html">Home Page</a>
           </li>
+          <!-- Anchor tag for the history page. -->
           <li>
             <a href="history.html">History of Treaty 1</a>
           </li>
@@ -129,7 +150,7 @@
       <br />
 
       <!-- These section tags contain the header for my sources, and my sources for this webpage. -->
-      <section id="sources">
+      <section class="sources">
         <!-- Heading for the list that shows my different sources. -->
         <h4 class="heading">Sources</h4>
         <!-- Unordered list that shows my different sources. -->
@@ -140,7 +161,7 @@
         </ul>
       </section>
     </main>
-    <!-- The footer tags contain the website's copyright information -->
+    <!-- The footer tags contain the website's copyright information. -->
     <footer>
       <p><small>© Jessie Linsangan</small></p>
     </footer>
