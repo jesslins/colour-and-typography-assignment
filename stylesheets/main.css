@@ -1,19 +1,38 @@
 /*
-  This will style all elements to have line spacing 
-  of 140% of the font size of the element.
+  Colour Family Explanation
+  
+  Neutral Colours:
+    #f3e7dc (background) - very light (almost white) orange/beige
+    #5c3d2e (main text) - brown
+  
+  Primary Colour:
+    #453028 (headings) - dark brown
 
-  -Mr. Hardman
+  Secondary Colours:
+    #f0aa70 (nav bar)- orange
+    #ffcca3 (important info) - lighter orange
+
+  Explanation:
+    I chose orange and brown as the main colours of the website because
+    orange represents balance, and brown represents security and a down
+    to earth nature. 
+*/
+
+/*
+  Styles all elements
+
+  line-height: 140%; causes the spacing between each line to be 140% of
+  the font size of the element.
 */
 * {
   line-height: 140%;
 }
 
 /*
-  This will style the html element (also known as the 
-  root element) to have a default font size of 62.5% 
-  of the default font size for the browser.
+  Styles anything within the html tags 
 
-  -Mr. Hardman
+  font-size: 62.5%; sets the default font size to be 62.5% of the default 
+  font size for the browser.
 */
 html {
   font-size: 62.5%;
@@ -34,12 +53,20 @@ html {
   font-family: "Times New Roman", Times, serif; sets the font to Times New
   Roman. If Times New Roman cannot be used, Times is used. If TImes cannot 
   be used, the default serif font built into the browser is used.
+
+  word-spacing: 1px; makes the space between each word slightly larger to
+  provide easier readability.
+
+  letter-spacing: 0.5px; makes the space between each letter slightly larger 
+  to provide easier readability.
 */
 body {
   background-color: #f3e7dc;
   margin: 0;
   font-size: 1.8rem;
   font-family: "Times New Roman", Times, serif;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 /*
@@ -118,7 +145,7 @@ nav a {
 
   background-color: #f59d56; sets the background color to a darker orange.
 
-  text-decoration: underline; puts an underline under the texts.
+  text-decoration: underline; puts an underline under the text.
 */
 nav a:hover,
 nav a:focus {
@@ -140,7 +167,7 @@ footer {
   color: #5c3d2e;
 }
 /*
-  Styles anything within tags with an id of sources.
+  Styles anything within the tags with a class of sources.
 
   padding-left: 2rem; makes the space between the content and the border larger.
 
