@@ -167,7 +167,7 @@ footer {
   color: #5c3d2e;
 }
 /*
-  Styles anything within the tags with a class of sources.
+  Styles anything within the tags with an id of sources.
 
   padding-left: 2rem; makes the space between the content and the border larger.
 
@@ -178,7 +178,7 @@ footer {
   background-color: #e7d4c3; sets the background color to a darker beige than the
   main background.
 */
-.sources {
+#sources {
   padding-left: 2rem;
   padding-bottom: 2rem;
   padding-top: 0.1rem;
