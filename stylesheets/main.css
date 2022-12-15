@@ -54,10 +54,10 @@ html {
   Roman. If Times New Roman cannot be used, Times is used. If TImes cannot 
   be used, the default serif font built into the browser is used.
 
-  word-spacing: 1px; makes the space between each word slightly larger to
+  word-spacing: 0.1rem; makes the space between each word slightly larger to
   provide easier readability.
 
-  letter-spacing: 0.5px; makes the space between each letter slightly larger 
+  letter-spacing: 0.05rem; makes the space between each letter slightly larger 
   to provide easier readability.
 */
 body {
@@ -65,8 +65,8 @@ body {
   margin: 0;
   font-size: 1.8rem;
   font-family: "Times New Roman", Times, serif;
-  word-spacing: 1px;
-  letter-spacing: 0.5px;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
 }
 
 /*
@@ -126,14 +126,14 @@ nav li {
 
   color: #5c3d2e; sets the font color to a dark brown.
 
-  padding: 1.6rem; makes the space between the content and the border larger.
+  padding: 2.3rem; makes the space between the content and the border larger.
 
   text-decoration: none; gets rid of the underline on the anchor tags.
 */
 nav a {
   display: block;
   color: #5c3d2e;
-  padding: 1.6rem;
+  padding: 2.3rem;
   text-decoration: none;
 }
 
